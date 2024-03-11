@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.backgroundimage{
+  background-image: url(../public/images/unsplash_QNrjcp90tVc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
