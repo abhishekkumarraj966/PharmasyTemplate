@@ -16,7 +16,7 @@ const BluePage = () => {
       <div className="">
         <h1 className="pt-6 font-bold text-center text-[40px]">Service</h1>
       </div>
-      <div className="md:h-[700px]  h-[550px] w-full bg-[#0058FF]  mt-[18px] flex">
+      <div className="md:h-[700px]  h-[650px] w-full bg-[#0058FF]  mt-[18px] flex">
         {/* <div className='flex ml-[150px] items-center'>
                     <span className='text-[#ADC9FF] font-normal text-[25px] mb-[10px]'>Services</span>
                     <div className='self-end ml-[170px] mt-[96px]'>
@@ -50,21 +50,40 @@ const BluePage = () => {
             modules={[FreeMode, Autoplay, Pagination, Navigation]}
             className="max-w-[90%] lg:max-w-[80%]"
           >
-             <SwiperSlide>
-             <BluePageCard service={"01 / Prescription Filling"} />
-             </SwiperSlide>
-             <SwiperSlide>
-             <BluePageCard service={"02 / Home Delivery"} />
-             </SwiperSlide>
-             <SwiperSlide>
-             <BluePageCard service={"03 /Health Consultations"} />
-             </SwiperSlide>
-
+            <SwiperSlide>
+              <BluePageCard />
+              <p className="font-normal text-[20px] text-[#FFFFFF] ">
+                02 / Home Delivery
+              </p>
+              <div>
+                <span className="text-[24px] font-normal text-[#ADC9FF] ">
+                  Description
+                </span>{" "}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <BluePageCard />
+              <p className="font-normal text-[20px] text-[#FFFFFF] ">
+                02 / Home Delivery
+              </p>
+              <div>
+                <span className="text-[24px] font-normal text-[#ADC9FF] ">
+                  Description
+                </span>{" "}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <BluePageCard />
+              <p className="font-normal text-[20px] text-[#FFFFFF] ">
+                02 / Home Delivery
+              </p>
+              <div>
+                <span className="text-[24px] font-normal text-[#ADC9FF] ">
+                  Description
+                </span>{" "}
+              </div>
+            </SwiperSlide>
           </Swiper>
-
-          
-        
-          
         </div>
       </div>
     </>
